@@ -1,2 +1,10 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+    <%= image_tag "foto5.jpg"%>
+  <main class="px-3">
+    <h1>Conoce más</h1>
+    <p class="lead">Te invito a conocer los ultimos proyectos en los que he estado trabajando a través de imagenes</p>
+    <p class="lead">
+      <%= link_to "Ultimos proyectos", projects_path, class: "btn btn-lg btn-light fw-bold border-white bg-white"%>
+    </p>
+  </main>
+</div>
